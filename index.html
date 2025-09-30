@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abysinna Skies</title>
+  <link rel="icon" type="image/x-icon" href="./assets/logoSmall.png" />
+  <script src="./lib/JQuery.js"></script>
+  <script src="./lib/Lottie.js"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+<div>
+    <script src="index.js"></script>
+  <div class="mainPanel">
+    <div class="muteBtn">🔊</div>
+    <div class="scoreHeaderDiv">
+      <div class="title">Abysinna Skies</div>
+      <div class="score"></div>
+      <div class="highestScore"></div>
+    </div>
+
+    <div class="gameOverDiv">
+      <div class="logo"><img src="./assets/logo.png" alt="" /></div>
+      <br />
+      <br />
+      <div class="gameOver">Game Over!!</div>
+      <div class="yourScore"></div>
+      <br />
+      <div class="restart">To start again press 'SPACE'</div>
+    </div>
+    <div class="furthestBackground"></div>
+    <div class="closerBackground"></div>
+    <div class="explosion"></div>
+    <div class="playerContainer">
+      <div class="rocketFuel" id="rocketFuel"></div>
+      <div class="planeContainer">
+        <img class="planeImg" src="./assets/plane.png" alt="Plane" />
+        <div class="planeCollusionArea"></div>
+      </div>
+    </div>
+    <div class="obstacleContainer">
+      <div class="obstacleLottieDiv"></div>
+      <div class="obstacleCollusionArea"></div>
+    </div>
+    <div class="groundLand"></div>
+  </div>
+  <audio id="bgMusic" loop>
+    <source src="./assets/audio/bgMusic.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="rocketEngine" loop>
+    <source src="./assets/audio/rocketEngine.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
+<div style="position:absolute; bottom:0; z-index:2000; width:100%; background:#111; color:#eee; text-align:center; padding:20px 10px; font-family:Arial, sans-serif; font-size:14px; border-top:2px solid #444;">
+  <span>🎮 Surafel Zewdu | </span>
+  <a href="https://github.com/surafel-47" target="_blank" style="color:#4fc3f7; text-decoration:none; margin:0 12px; font-weight:bold;">
+    🐙 GitHub
+  </a> |
+  <a href="https://surafel-zewdu.vercel.app/" target="_blank" style="color:#4fc3f7; text-decoration:none; margin:0 12px; font-weight:bold;">
+    🌐 Portfolio
+  </a>
+</div>
+
+</body>
+
+</html>
